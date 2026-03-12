@@ -119,13 +119,13 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"                   # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion" # This loads nvm bash_completion
 
-export HTTPS_PROXY=http://webproxy.ext.ti.com:80
-export https_proxy=http://webproxy.ext.ti.com:80
-export HTTP_PROXY=http://webproxy.ext.ti.com:80
-export http_proxy=http://webproxy.ext.ti.com:80
-export ftp_proxy=http://webproxy.ext.ti.com:80
-export FTP_PROXY=http://webproxy.ext.ti.com:80
-export no_proxy=ti.com
+#export HTTPS_PROXY=http://webproxy.ext.ti.com:80
+#export https_proxy=http://webproxy.ext.ti.com:80
+#export HTTP_PROXY=http://webproxy.ext.ti.com:80
+#export http_proxy=http://webproxy.ext.ti.com:80
+#export ftp_proxy=http://webproxy.ext.ti.com:80
+#export FTP_PROXY=http://webproxy.ext.ti.com:80
+#export no_proxy=ti.com
 
 export PATH="$PATH:/opt/nvim-linux-x86_64/bin"
 export PATH="$PATH:/home/yogi/.local/kitty.app/bin/"
